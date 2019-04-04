@@ -1,0 +1,272 @@
+
+
+
+
+<!DOCTYPE html> 
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><title>
+	JAMB - eMail Verification Form
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="assets/global/plugins/select2/select2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/pages/css/login-soft.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="assets/global/css/components.css" rel="stylesheet" type="text/css" /><link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/layout.css" rel="stylesheet" type="text/css" /><link id="style_color" href="assets/admin/css/themes/darkblue.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/custom.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/clockface/css/clockface.css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+      <script src="assets/global/plugins/select2/String.Handling.js"></script>
+   <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" /><link href="WebResourcee778.axd?d=UT1Cj7SEzX8U-GEgOjD-q6OAoM8fil-OuvABxwKyih5d-DT3ajtD0gwHasI2d6MqzT-Q7E5n47F4EoK9vWJNCdQwt9ZOa-ycPpfYklBfax_SmkxSkpGC-WT-q7jSsud-D3-NsKZ3VHfc6gTOPfak2Q2&amp;t=636233483305582045" type="text/css" rel="stylesheet" /></head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="#">
+        
+            <img src="assets/admin/img/logo_big.png" alt="logo" /> 
+        </a>
+    </div>
+    <!-- END LOGO -->
+    <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+    <!-- END SIDEBAR TOGGLER BUTTON --> 
+    
+    <!-- BEGIN REGISTRATION FORM -->
+    <div id="dvform" class="row" style="margin-left: 5px; margin-right: 5px">
+        <div class="col-md-8  col-md-offset-2">
+            <!-- BEGIN LOGIN FORM -->
+            <form method="post" action="http://www.jamb.org.ng/efacility_/ValidateeMail" id="ctl22">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="ScriptResource08d2.axd?d=D9drwtSJ4hBA6O8UhT6CQgiCKMdfhpqMNVpBKLrFhrx-l50YGnYbFyz0rcL9HO28t2r1rBba5UOhpGFefQ-gElSf67lVgdrZuI0LUeK4ZCf65erHDEYKIMiDwuo4v69jYgFC18Ll9Hb1eBOLGU_giQI5zZj50KbDI-bkk5x91qI1&amp;t=72fc8ae3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="ScriptResource521e.axd?d=pVdHczR8HTv0TYtXLibFoNoDZHXu6_ikQ6lwdcBBKb8sd_CpqvVFftozE6lTrZi5aUuIoFLUZQEPDAWN0BXhFcArqGs5HB4Mvg5pjX2zTnpOL034yEbmL6amZ_4IoLebMhmZ0pV5yTrtEFlwxtuU8w2&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResource9507.axd?d=LpGQnoKUSgO3ODsBUs8Gfb-r7EjSJhKrMf9nqfqIZZ3EIshhOoYNwQttQpNQtcnB0Zp1ku2WIusaVzRZ9p_fLs_Kpipyy8ic-6u5MJuUVyzxIORUxtKxnvRh-ljpAVKY0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResourcef8c1.axd?d=-qISl4-OkT-7X02E4FisryK246O6SaD2NvtDRRJWVl1jfXqOBfBucGMZyKD8tifI39xwT8vxwm449YRmy65w8pfbb_BbvXfvuez3bkIc3GIhIn7aHn3tlkUFw4HLMArj0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResource175a.axd?d=iC2sD0Al8A6ZX4AVmUco0coVAe6cYcAoqBwZn0P0dYbWD8PGh9LztQAAfE6Ei7ii_uKUCcJAR0hK5LE_IEXnzfUhQk3Yg_lBBPlH197_Kcdtw7aTy5_2-qnv2OKEBySV0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResource94aa.axd?d=rFItVvyVSHru2mWi6oVDARh0HX_DgTMkhO4-iv1N_XTFQUxAHxKgb0K7uf7tNJ7eWJ8eSj8pgUFryCEwCr2-hHsSJyDePfNwiwcj0soctb7rES9ZT5eT0iPtrpoNiXMF0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResourceccfc.axd?d=VXG5HWKmJ5VfT6XbkUxKRjpTQHgKEHKjFwcHry31Asg-e5ZskP38lrN6qYAPrgfKy3zIkVKfsVmxXlIxu_DQ9tT3VgNww8h3qZJaPbkM_ZH8uda372ZHLIXiFE_uUBi10&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResourcef854.axd?d=UOhNCrWepwbJqlILLLhLzWV0HgmUxzxg2GhBABRgjWY2QI8E7xzZQfsSNmX_fLEbBaEYtJaipM30f12AAfxPtBlJR7Eq8o7QD3Bqgq93RQGaJhMjwb0JUUigXLdqtO_40&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResourcee673.axd?d=5Ptu7TR6eeUMpbV-tOSG6vz5zqC9FiWbIfDwgbpwzTmm7VT6XhtK3-p-6kwOBeDBuC2E3tsVnJrFWMos6Fw3PNg0OBFH0J2mILnFkQ9ZLFrdSl8FYTuCZCX3GpqfX4RW0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResource325b.axd?d=yq2dglGiX2GonGqAbqjSttAC2ruMyCCNWcc_ZUcg5vGlt9Ch0QCkI12761XaO9FExaGn1tdkplfymqXXXZd2tjJXvMFL-C1pa4ROQDv7dA7_eA0wAX5KVSa6kG-vHyHF0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResourced913.axd?d=q85rlLsZEVu9loex9kzISGAv6NmplZLyQ0q6DhPT91oYgrd1YxNkN4HD7DGf1OCIS3uanYmNf5bzNL1wFnE939RWmpoR78YEo_qM-RdR8dtURfVQoVNb0wTqob6j5gFP0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResource464b.axd?d=9fVK6SOzqud8-CG5DRcWdYZDx6qRvqB5Rz0u7UmhQWI4gGesRXuxMzo9y5WgEKV8HFqDoxHN-06UgRsyHua-ZVEqWKsSiJj6VI-cYDuoOA7V9DAXn44AJJyHyGNQawqk0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResource9903.axd?d=FJYGXcD0D1IU18YZcc5S5bZgtSN0wK8TbRfT18yzPM4A2XUZtmzkJ7os9XARNk-7IAsDB9WqJypXAyePoDnUYw31-lUR4q1TaiiRetsn696WrrHK6I82izAxyNH7HB0D0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="ScriptResourced025.axd?d=qTnPOILsJCPbmGgsgyJ0e6dHbnNb946LknrE32d0yKahz3MhQz0MfwJi7g84qwDFbbGhebnax0EIKzlyhHQ4ZoC8sMconbW_kT7ZigQWWrRykgBYGe_PlfjpgCQSUPjJ0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="68AEBA74" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="gMeB+eIN/uSw8mGeXkvZ3t/NX8cVaV6A3ndfy8qFJD4Hdfef0co1+6x1jJCHi7u1vXg5Q3BFUrriaWzb6NajQS979we6l4dUWoXZxSiyZc+lH1m8C2bUE+WryezZ80mmcXrsuS3FZXonZNRj9KxkQY/mVYev9pjF9VGZ8Vb/yPFmGglS/b+tcAml7oxiCd0TSJ4fCySa+eXZ1qLw5tw7WLr2iikGzQbX/Ehptfrd0AWENpMnDaG+jve2q8aApa/fiUNs9cPSpAom4Hpy6Ka3FWiL/uzw+iXZEA+tgQdukQwKlYlkGRoi92z0McSFehdg5rUvvOUKihqXErnByJFfLEEDUwRI72c2vF4hLyRyZ8qhNToPTIWuBMdozP/uWANH8DhNDDC9JNKlno4RxcNFwGpYt9jRRg9pd0NaYYpi8HviPxpZK45X0d3AApOwExmvgWgkmfhPwUv49W5xoUHh63PAyGEjnu7RGB/en9kr7kTYko4igGWgDvso1u5NMwk23HWGeM9YGj04z/HzT7x9AhPN1MiG+gQtxZiiAiR3T8kcVT/DdPJlffR8qLdbGokx9tF/rjFyxrWhyKxMLL3j/bX4n7IRSlp8ywsukEfDuemW63PHfn/y1ieQt6YfdlQDWoppMRbnK8W5D42g+3WSEXadHiriKTRb8ly2CL4r7PE=" />
+                
+                
+<style type="text/css">
+    .Modal_trans
+    {
+        opacity: 0.8;
+        filter: alpha(opacity=60);
+        background: grey;
+    }
+    .container{
+        z-index:10000;
+    }
+</style>
+<div id="MessageBox_PopPanel" style="z-index:10000;border-radius: 9px; overflow: hidden; display: none;"><font color="White">
+	
+    <table style="border-collapse: collapse; border: 0px;" width="100%">
+        <tr id="MessageBox_boxheader" style="cursor: move;">
+		<td colspan="2" style="background-color: #666666; padding-left: 10px; padding-top: 3px; padding-bottom: 3px;">
+                <span id="MessageBox_lblTitle"><font color="#D0DAE1">ToolTrak Message</font></span>
+            </td>
+	</tr>
+	
+        <tr>
+            <td id="MessageBox_icon" align="center" style="width: 50px; padding-left: 10px; padding-top: 5px; padding-bottom: 5px;">
+                <img id="MessageBox_image" src="Images/info.png" />
+            </td>
+	
+            <td style="padding: 10px; width: 220px;">
+                <span id="MessageBox_lblMsg"><font color="#333333"></font></span>
+            </td>
+        </tr>
+        <tr>
+            <td align="right"
+                colspan="2"
+                style="padding-right: 20px; padding-top: 7px; padding-bottom: 7px; background-color: #666666; border-top-style: solid; border-top-width: 2px; border-top-color: #999999;">
+                <a id="MessageBox_LinkButton1" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;MessageBox$LinkButton1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"></a>
+                <input type="submit" name="MessageBox$ok" value="Ok" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;MessageBox$ok&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="MessageBox_ok" />
+                
+            </td>
+        </tr>
+    </table>
+
+</font></div>
+
+
+                <div id="dvAccount" class="account">
+                    <h3><b>Sign Up </b>(e-Mail Verification)</h3>
+                    <p>
+                        Enter your Email and details below:
+                    </p>
+                    <div class="form-group">
+                        <div class="accordion" style="width: 70%;">
+                            <h2 style="width: 100%; color: red">Important Notice!</h2>
+                            <div style="text-align: justify; font-weight: bold">
+                                You are advised to create an account with a valid email address because all vital information will be sent to the email you supplied
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div id="register_tnc_error" class="toast-error" style="color: white"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label visible-ie8 visible-ie9">Email</label>
+                                    <div class="input-icon">
+                                        <i class="fa fa-envelope"></i>
+                                        <input name="email" type="text" id="email" class="form-control placeholder-no-fix" autocomplete="off" placeholder="e-Mail Address" required="" onkeyup="return Lower(this)" />
+                                        &nbsp;
+                                        &nbsp;
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label visible-ie8 visible-ie9">Email</label>
+                                    <div class="input-icon">
+                                        <i class="fa fa-envelope"></i>
+                                        <input name="emailComfirm" type="text" id="emailComfirm" class="form-control placeholder-no-fix" autocomplete="off" placeholder="Confirm e-Mail Address" required="" onkeyup="return Lower(this)" />
+
+                                        &nbsp;
+                                        &nbsp;
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                                    <div class="form-group">
+                                        <label class="control-label visible-ie8 visible-ie9">Secret Question</label>
+                                        <select name="ddlSecretQuestion" id="ddlSecretQuestion" class="select2 form-control" name="state">
+	<option value="0">Select...</option>
+	<option value="875fc768-28c9-447c-88ad-cdd09f35af32">In what city did you meet your spouse/significant other?</option>
+	<option value="aeaf650f-d315-46f1-bea4-7cda83952baf">In what city does your nearest sibling live?</option>
+	<option value="b9bacbb1-ae40-4016-9220-6fc1d278f344">In what city or town did your mother and father meet?</option>
+	<option value="52529bff-86d7-4571-9187-b1cb6057497d">What is the given name of your father&#39;s father?</option>
+	<option value="954877e8-27bd-4eaa-9e98-e532a5a4100c">What is the given name of your mother&#39;s mother?</option>
+	<option value="89288fcb-dea3-478e-915d-f0fc00cd56b9">What is the middle name of your youngest child?</option>
+	<option value="361df9a6-8f2f-4d1a-9c21-812c48053954">What is the name of your childhood friend?</option>
+	<option value="8831894f-8d6d-4de8-af5c-509cb6f5da58">What is your maternal grandmother&#39;s maiden name?</option>
+	<option value="a11c75bf-df11-442d-a2fe-71e226a15862">What is your oldest cousin&#39;s first and last name?</option>
+	<option value="2365fa3b-4774-4b93-80f1-ba030216e7ec">What is your oldest sibling&#39;s middle name?</option>
+	<option value="4a8f5529-930b-418c-b6be-18aaf68bd7f4">What is your oldest sibling’s birthday month and year? (e.g., January 1900)</option>
+	<option value="7bb72f8c-a0ca-4c08-b58b-dfb5373a6395">What is your pet’s name?</option>
+	<option value="1f17de8c-792a-4fa3-8a58-fc40814dd00e">What is your youngest sibling’s birthday month and year? (e.g., January 1900)</option>
+	<option value="441ac215-c868-4ee9-954b-a45a37689241">What name did your family used to call you when you were a child?</option>
+	<option value="d2bf4071-e15c-4568-89a7-eb8dc4019b71">What school did you attend when you were 11 years old?</option>
+	<option value="0ca04ad2-f2d2-4029-b083-5614692064e3">What street did you live on when you were 8 years old?</option>
+	<option value="66a1d353-731c-4188-970a-5d8c7e665468">What was the last name of your favorite teacher?</option>
+	<option value="8b741d38-e30f-4e75-bcd3-848eaf9c2459">What was the name of your first boyfriend or girlfriend?</option>
+	<option value="2fe380f4-431a-470f-b095-e2383edddab2">What was your home phone number when you were a child?</option>
+
+</select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label visible-ie8 visible-ie9">Password</label>
+                                    <div class="input-icon">
+                                        <i class="fa fa-lock"></i>
+                                        <input name="SecretAnswer" type="password" id="SecretAnswer" class="form-control placeholder-no-fix" autocomplete="off" placeholder="Secret Question Answer" required="" onkeyup="return Lower(this)" />
+                                        &nbsp;
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label visible-ie8 visible-ie9">Re-type Your Password</label>
+                                    <div class="controls">
+                                        <div class="input-icon">
+                                            <i class="fa fa-check"></i>
+                                            <input name="ConfirmSecretAnswer" type="password" id="ConfirmSecretAnswer" class="form-control placeholder-no-fix" autocomplete="off" placeholder="Confirm Secret Question Answer" onkeyup="return Lower(this)" />
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-actions">
+                                    <a href="Login" class="btn btn-primary btn-lg"><i class="m-icon-swapleft"></i>Back</a>
+                                    <input type="submit" name="btnSubmit" value="Verify e-Mail" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnSubmit" class="btn green-haze pull-right btn-lg" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"Modal_trans","dynamicServicePath":"/efacility_/ValidateeMail","id":"MessageBox_PopUp","okControlID":"MessageBox_ok","popupControlID":"MessageBox_PopPanel","popupDragHandleControlID":"MessageBox_boxheader"}, null, null, $get("MessageBox_LinkButton1"));
+});
+//]]>
+</script>
+</form>
+            <!-- END REGISTRATION FORM -->
+        </div>
+    </div>
+    <!-- END LOGIN -->
+    <!-- BEGIN COPYRIGHT -->
+    <div class="copyright" style="color:#235b2b;">
+        2017 &copy; Joint Admissions and Matriculation Board (JAMB)
+    </div> 
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+  <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+     
+    <script src="assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/global/plugins/select2/select2.min.js"></script>
+   
+    <script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/demo.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/admin/pages/scripts/components-pickers.js"></script>
+
+    <script src="assets/global/plugins/bootbox/bootbox.min.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/ui-bootbox.min.js" type="text/javascript"></script> 
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Login.init();
+            Demo.init();
+            ComponentsPickers.init();
+            // init background slide images
+            $.backstretch([
+             //"../assets/admin/pages/media/bg/sidmachofficenight.png",
+             "assets/admin/pages/media/bg/3.jpg",
+             "assets/admin/pages/media/bg/4.jpg"
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+         );
+        });
+    </script>
+</body>
+<!-- END BODY -->
+</html>

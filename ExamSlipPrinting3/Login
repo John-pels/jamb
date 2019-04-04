@@ -1,0 +1,179 @@
+
+ <!DOCTYPE html> 
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><title>
+	Log in
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="assets/global/plugins/select2/select2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/pages/css/login-soft.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="assets/global/css/components.css" rel="stylesheet" type="text/css" /><link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/layout.css" rel="stylesheet" type="text/css" /><link id="style_color" href="assets/admin/css/themes/darkblue.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/custom.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" /></head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="#">
+            
+            <img src="assets/admin/img/logo_big.png" alt="logo" /> 
+        </a>
+    </div>
+    <!-- END LOGO -->
+    <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+    <!-- END SIDEBAR TOGGLER BUTTON -->
+    <!-- BEGIN LOGIN -->
+    <div class="content">
+        <!-- BEGIN LOGIN FORM -->
+        <form method="post" action="http://www.jamb.org.ng/ExamSlipPrinting3/Login" id="frm" class="login-form">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="RXH5to0z8WW+72NKJjKNLUxZ+7nTh0sq48NVtDzfCMkXLeRaSKnbgKTl87xDAq2dTq5cS90wFL9Sb1DqDbckWalBJtU2HKOg69mRpTNguuo=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="867AE836" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="yn6HUDsJRrmGeEvlAdpsn4wbFB2QR2In5sA67r2cYETYGMz917Zr+0O+4ayv+gmvBlRe9OoNnRSjOeQtxBJapiXRYlWaZvI3qFtPABgQMsB771o95CumkcRnfTLmvUK5kMb1A9afWrje9uIboPK4mxozjC0ffivpcED7G3zExwA=" />
+            <h3 class="form-title" style="color: #333;">Login to your account</h3>
+            
+            <div>
+	
+                <div class="alert alert-danger display-hide">
+                    
+                    <span>Enter your e-Mail address and Password. </span>
+                </div>
+                
+                <div class="form-group">
+                    <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                    <label class="control-label visible-ie8 visible-ie9">e-Mail Address</label>
+                    <div class="input-icon">
+                        <i class="fa fa-envelope"></i>
+                        <input name="email" type="text" id="email" class="form-control placeholder-no-fix" autocomplete="off" required="" placeholder="e-Mail Address" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label visible-ie8 visible-ie9">Password</label>
+                    <div class="input-icon">
+                        <i class="fa fa-lock"></i>
+                        <input name="password" type="password" id="password" class="form-control placeholder-no-fix" autocomplete="off" placeholder="Password" required="" />
+                    </div>
+                </div>
+                <div class="form-actions">
+                    
+                    <a id="lnkLogin" class="btn blue pull-right form_submit" href="javascript:__doPostBack(&#39;lnkLogin&#39;,&#39;&#39;)">
+                    Login <i class="m-icon-swapright m-icon-white" onserverclick="btnLogin_Click" causevalidation="true"></i></a>
+                </div>
+                <div class="create-account">
+                    <p style="color: #333;">
+                        Don't have an account yet?&nbsp; <a href="ValidateeMail" class="btn btn-primary" id="register-btn">Create an account </a>
+                    </p>
+                </div>
+                <div class="forget-password">
+                    <h4 style="color: #333;">Forgot your password?</h4>
+                    <p style="color: #333;">
+                        Click <a href="forgot" class=" btn btn-success btn-sm">here </a>
+                        to reset your password.
+                    </p>
+                </div>
+                <div class="form-actions" style="display:none" >
+                    <h4 style="color: #333;">Any issue with Payment?</h4>
+                    <p style="color: #333;">
+                        <a href="QueryPayment" class=" btn red btn-sm">Query payment transaction</a> .
+                    </p>
+                </div>
+            
+</div>
+        </form>
+        <!-- END LOGIN FORM -->
+    </div>
+    <!-- END LOGIN -->
+    <!-- BEGIN COPYRIGHT -->
+    <div class="copyright" style="color:#235b2b;">
+        2017 &copy; Joint Admissions and Matriculation Board (JAMB)
+    </div>
+    <!-- END COPYRIGHT -->
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+<script src="../../assets/global/plugins/respond.min.js"></script>
+<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+    
+    
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/global/plugins/select2/select2.min.js"></script>
+    
+    
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/demo.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
+    
+    
+    
+    <script src="assets/global/plugins/bootbox/bootbox.min.js" type="text/javascript"></script> 
+    <script src="assets/pages/scripts/ui-bootbox.min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Login.init();
+            Demo.init();
+            // init background slide images
+            $.backstretch([
+             //"../assets/admin/pages/media/bg/sidmachofficenight.png",
+             "assets/admin/pages/media/bg/3.jpg",
+             "assets/admin/pages/media/bg/4.jpg"
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+         );
+            $('#frm').submit(function () { 
+                $('#lnkLogin').click();
+            })
+
+        });
+
+
+        //$(document).ready(function () {
+        //    var $btn = $('.form_submit');
+        //    var $form = $btn.parents('.login-form');
+          
+        //    $form.keypress(function (e) {
+        //        alert('j');
+        //        if (e.which == 13 && e.target.type != 'textarea') {
+        //            if ($btn[0].type == 'submit')
+        //                $btn[0].click();
+        //            else
+        //                eval($btn[0].href);
+        //            return false;
+        //        }
+        //    });
+        //});
+    </script>
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

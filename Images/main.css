@@ -1,0 +1,132 @@
+/* CSS Document */
+
+body,  td, input
+{
+font-family: verdana;
+font-size: 12px;
+font-color: #000000
+}
+h1
+{
+font-family: verdana;
+font-size: 13px;
+color: green
+}
+
+
+.logininput { BACKGROUND: #fdfbef; FONT-FAMILY: verdana; font-color: #b79148; FONT-SIZE: 10px; padding: 2px; height: 20px; width: 120px; }
+.facilitydetails { BACKGROUND: #fdfbef; FONT-FAMILY: verdana; font-color: #b79148;FONT-SIZE: 12px; font-weight :bold ; padding: 2px; height: 20px; width: 650px; }
+.defaultpagefill { BACKGROUND: #fdfbef; FONT-FAMILY: verdana; font-color: #b79148; FONT-SIZE: 10px; border: 1px solid #460046; padding: 2px; height: 20px; width: 450px; }
+.loginsubmit {
+	BACKGROUND: #fffff4;
+	FONT-FAMILY: verdana;
+	font-color: #460046;
+	FONT-SIZE: 11px;
+	border: 1px solid #336633;
+	padding: 0px;
+	width: 70px;
+	height: 20px;
+}
+.xlink {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight:bold
+}
+
+.salink {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight:lighter
+	}
+
+
+a:link {
+	text-decoration: none;
+	color: #36010F;
+	font-weight:lighter
+	}
+
+a:visited {
+	text-decoration: none;
+	color: #36010F;
+	font-weight:lighter
+}
+a:active {
+	text-decoration: none;
+}
+a:hover {
+	color:#FF0000;
+	text-decoration:none;
+	border-bottom-style: dotted;
+	border-top-color: #CC0000;
+	border-right-color: #CC0000;
+	border-bottom-color: #460046;
+	border-left-color: #CC0000;
+	border-bottom-width: thin;
+}
+.slink {
+	font-size: 10px;
+	text-decoration: none;
+}
+.fixdback {
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+}
+.bottom {
+	FONT-SIZE: 11px; FLOAT: left; COLOR: #ffffff; FONT-FAMILY: Arial; TEXT-ALIGN: center
+}
+
+.tdborder {
+	border: 2px groove;
+}
+	
+.imgrollborder {
+	border: 2px groove #999999;
+
+}	
+.fixback {
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.bottomtd {
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.righttd {
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+.lefttd {
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+.toptd {
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.upleft {
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.upright {
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.downleft {
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.downright {
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
+.imlink {
+	border: thin groove;
+
+}

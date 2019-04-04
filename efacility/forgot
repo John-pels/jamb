@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html> 
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/font-awesome/css/font-awesome.min-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/simple-line-icons/simple-line-icons.min-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/bootstrap/css/bootstrap.min-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/uniform/css/uniform.default-2.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="assets/global/plugins/select2/select2-2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/pages/css/login-soft-2.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="assets/global/css/components-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/css/plugins-2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/layout-2.css" rel="stylesheet" type="text/css" /><link id="style_color" href="assets/admin/css/themes/darkblue-2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/custom-2.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/clockface/css/clockface-2.css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min-2.css" />
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="Account/favicon.ico" /><title>
+	Forgot Password
+</title></head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="#">
+            
+            <img src="assets/admin/img/logo_big-2.png" alt="logo" /> 
+        </a>
+    </div>
+    <!-- END LOGO -->
+    <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+    <!-- END SIDEBAR TOGGLER BUTTON -->
+    <!-- BEGIN LOGIN -->
+    <div class="content">
+        <!-- BEGIN LOGIN FORM -->
+        <form method="post" action="http://www.jamb.org.ng/efacility./forgot" id="frm" class="login-form">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="OYxnuJI/uG/70inXfXN77PIbVWtxPouMAGWxQmJo9KN6lq1YZOJE1WUu3LT1lA5Ey8uc8oKUBgSrbIfgBXdvCaggGX+45Vkk/ebeq/IZ01Q=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="933838B6" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="rW6A43b1GUo6Mc4Du/hFsjjvHopyC6WXVJaAjZRw488CRMkzDJJVUHsDBYQETijAEOyfvuADBcnLoEuSJhMesB76NvesV+9eOAq22I4h/QNqqwaOLtbqsyjUe3SB7Bd37YgtFW/hv+8r+R5dTYUwMMCm3ssOiUVr4sMQ0J1tq3w=" />
+            <h3 class="form-title" style="color: #333;">Forgot Password</h3>
+            
+            
+            
+            <div id="dvfrm">
+                <div class="form-group">
+                    <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                    <label class="control-label visible-ie8 visible-ie9">e-Mail Address</label>
+                    <div class="input-icon">
+                        <i class="fa fa-envelope"></i>
+                        <input name="email" type="text" id="email" class="form-control placeholder-no-fix" autocomplete="off" required="" placeholder="e-Mail Address" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label visible-ie8 visible-ie9">Date of Birth</label>
+                    <div class="input-group input-medium date date-picker" data-date-start-date="12-12-1950" data-date-end-date="+0d" data-date-format="dd-mm-yyyy">
+                        <input name="DateofBirth" type="text" id="DateofBirth" class="form-control placeholder-no-fix" readonly="" placeholder="Date of Birth" required="" />
+                        <span class="input-group-btn">
+                            <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button onclick="__doPostBack('btnLogin','')" id="btnLogin" type="submit" class="btn blue pull-left">
+                        Get Password Reset Link <i class="m-icon-swapright m-icon-white" onserverclick="btnLogin_Click" causevalidation="true"></i>
+                    </button>
+                </div>
+
+            </div>
+            <div class="forget-password">
+                <p style="color: #333;">
+                    <a href="login-4" class=" btn btn-success btn-sm"><i class="m-icon-swapleft"></i>Back To Login </a>
+                </p>
+            </div>
+
+        </form>
+        <!-- END LOGIN FORM -->
+    </div>
+    <!-- END LOGIN -->
+    <!-- BEGIN COPYRIGHT -->
+    <div class="copyright" style="color:#235b2b;">
+        2017 &copy; Joint Admissions and Matriculation Board (JAMB)
+    </div>
+    <!-- END COPYRIGHT -->
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+<script src="../../assets/global/plugins/respond.min.js"></script>
+<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+    <script src="assets/global/plugins/jquery.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-migrate.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min-2.js" type="text/javascript"></script>
+    
+    
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="assets/global/plugins/jquery-validation/js/jquery.validate.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/backstretch/jquery.backstretch.min-2.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/global/plugins/select2/select2.min-2.js"></script>
+    
+    
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/global/scripts/metronic-2.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/layout-2.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/demo-2.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/login-soft-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min-2.js"></script>
+    <script src="assets/admin/pages/scripts/components-pickers-2.js"></script>
+
+   
+
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Login.init();
+            Demo.init();
+            ComponentsPickers.init();
+            // init background slide images
+            $.backstretch([
+             //"../assets/admin/pages/media/bg/sidmachofficenight.png",
+             "assets/admin/pages/media/bg/3.jpg",
+             "assets/admin/pages/media/bg/4-2.jpg"
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+         ); 
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

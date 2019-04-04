@@ -1,0 +1,305 @@
+
+
+
+
+
+<!DOCTYPE html>
+ 
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head id="Head1"><meta charset="utf-8" /><title>
+	JAMB - Verify For Payment
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/font-awesome/css/font-awesome.min-3.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min-3.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/bootstrap/css/bootstrap.min-3.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/uniform/css/uniform.default-3.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="../assets/global/plugins/select2/select2-3.css" rel="stylesheet" type="text/css" /><link href="../assets/admin/pages/css/login-soft-3.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="../assets/global/css/components-3.css" rel="stylesheet" type="text/css" /><link href="../assets/global/css/plugins-3.css" rel="stylesheet" type="text/css" /><link href="../assets/admin/css/layout-3.css" rel="stylesheet" type="text/css" /><link id="style_color" href="../assets/admin/css/themes/darkblue-3.css" rel="stylesheet" type="text/css" /><link href="../assets/admin/css/custom-3.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="../assets/global/plugins/clockface/css/clockface-3.css" /><link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min-3.css" />
+      <script src="assets/global/plugins/select2/String.Handling.js"></script>
+   <!-- END THEME STYLES -->
+   
+        <!-- END THEME TYLES -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/select2/select2-3.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/jquery-multi-select/css/multi-select.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min-3.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/icheck/skins/all.css" />
+
+    <script src="assets/global/plugins/select2/String.Handling.js"></script>
+    <script src="../assets/global/plugins/select2/String.Handling-3.js"></script>
+
+
+  
+          
+    <style type="text/css">
+        .Searchfield {
+            width: 150px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 40px;
+            font-size: 13px;
+            background-color: white;
+            background-image: url('../images/searchico.png');
+            background-position: 10px 6px;
+            background-repeat: no-repeat;
+            padding: 8px 20px 5px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+            .Searchfield:focus {
+                width: 100%;
+            }
+    </style>
+
+<link href="../WebResourceea93.axd?d=UT1Cj7SEzX8U-GEgOjD-q5Knae13QrkvkgCQkbImzrXIVShVXWTrCi-e4V5MAnp2jN6OQB4OnSMh7pqsgikyZroNNqG9P9zK1Uvm1erEJiq26BtBs8YV3_pkKn_wlDajbO3zcqFj7VdYvnz9D7yg5Q2&amp;t=636233483305582045" type="text/css" rel="stylesheet" /></head>
+<body class="login" style="background:#fff">
+   <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="../buypin-2">
+            
+            <img src="../assets/admin/img/logo_big-3.png" alt="logo" /> 
+        </a>
+    </div>
+    <!-- END LOGO -->
+    <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+    <!-- END SIDEBAR TOGGLER BUTTON --> 
+     
+    <!-- BEGIN REGISTRATION FORM -->
+    <div id="dvform" class="row" style="margin-left:2px;margin-right:2px">
+        <div class="col-md-8  col-md-offset-2 " >
+            <div class="account" style="background-color:#fff">
+            <!-- BEGIN LOGIN FORM --> 
+                
+    <div id="MainContent_dvcontent" style="padding-left: 20px; text-align: center">
+        <h3><b>Verify Profile Code/Payment</h3>
+        <!-- BEGIN LOGIN FORM -->
+        <form method="post" action="http://www.jamb.org.ng/eFacility/CandPay/InitPay" id="ctl00" class="login-form">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="O2HlrrgYLZt2QT9wHAcufichemBiISNlSyEI8XOW1Rf/DLq6XaDLuY+qCTfIcLQVUiIh4jbBz900E7ouiImFs3qgEgywqzvlIHHoj/jned1pHhsqry1LyyCPcxy25eYzQl4FpK21Z9j6agxWVe/MrKuOrY5vf6ldIhNOzp6S8+3MG8ZNgBrcYnTXhVRtEGegUQwheqBY99eK8mTLQBJ1H8ci7ysthXqDdgTsn9HrQKFwk/UHqMJ1kYfBEXqkVxQz" />
+
+
+<script src="../ScriptResource56d6.axd?d=D9drwtSJ4hBA6O8UhT6CQpmnwRVzIvrRDUaCsFAQJa3XZtCE8Yr4Ibjrv1l1PzfvtwgfybJsNRdE6p-xZ3hCFye4IluGohME9jpUFZ9HYXmfBLxy9akyR9xnJOFmz_-0dnqgTDBfhNlYFhvvj8Yk6xD5VEkmCZAPxyOS_VRIh981&amp;t=72fc8ae3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="../ScriptResource598b.axd?d=pVdHczR8HTv0TYtXLibFoBzMEcyxeYyzZSq_Vq1JMfKB_0tb8Nxwg5qhgqv-_2ds4yTo8wAdC_1roEhtrVa2y53CtFp0UHbheqO-8wzX4hojVvMTSdWBrZ8sjksSfbycORQTo5NsWK-t1BGppafiew2&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource8d66.axd?d=LpGQnoKUSgO3ODsBUs8GfTGriUjK9Mv9HBdVo3DHS15HiOu2tbRJDdUP4eHS8CkgOdFvTicdlgtUgcxr4MUgGIJcFpBS-FxVh5FLQdGdZhHhdd1kle0CS6MmAHHX9Zrv0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResourcea53d.axd?d=-qISl4-OkT-7X02E4Fisr6l6WVYTXusUkQMbSnOJWg9J3Vn26u55Sfj3aVCy3ss0nwSUirhlRDSxBpgwnWeV2FdS5xxwhOuEuaPhKElTCCU6i14-CaKDJbXtdBnUwv_00&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResourcebb81.axd?d=iC2sD0Al8A6ZX4AVmUco0QD48YxbOXTYf7K0Iz3WBVLSSKYzd1dtSWJqS7_cHJ0sutNWOdJhiFGfoCqJbLAiHDNv-gLOwpsGwzqSx_PqZWvKLx9E5B2-_tjSVH07yxaE0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource461f.axd?d=rFItVvyVSHru2mWi6oVDAberiCZVXKJ3oh5-4XXycCekQDiTeeYgNHkAm8iludzJHNRjCufaQI1gR1_9wSoYkIxX9W0N_CB_Ai-Nw7v-6xEhLuovu-T7j1qt_P-T4xEA0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource2dd7.axd?d=VXG5HWKmJ5VfT6XbkUxKRvZbg28lfPnUA0P5S4XN3OAq8qPmWvWF9WdcDOOipwNR9LScrgKtR4-zy3uzFMjKVhNJe8H-Yk2niWxg9_4dXnOxT_-2nhS9HuqBx5LeOKME0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResourceac27.axd?d=UOhNCrWepwbJqlILLLhLzcPrghzV1M1IgXJQAyk9Pi1Wz4j5pSitMPC0GNE-Hly0SIIDUuTKnQ23AjLpcDGClYWo2mPPDksHfFknatcI3oBYj5fndYb7FcGYhUm3Mjjo0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource5324.axd?d=5Ptu7TR6eeUMpbV-tOSG6opvrWXS4IW8Y8CBrGduBjFQVY_3NgeIJNnDzdVOa9pImlavsXBa5MzN8gmTcTnzdjwc1ejaHAxqHd1jpapBRTSFYZ8mB1KClnytWbTa3aIf0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource4ae1.axd?d=yq2dglGiX2GonGqAbqjStjO6aIQme4ukTK64KZbT4LUQG_fZfYVGNvWV6bghZsEWN34w1J43xP_P36fXUvDPs2Iyb7AIdYLfxzHBTJBnjAg6QytZS2SkxDecJOzzE0jx0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource72bb.axd?d=q85rlLsZEVu9loex9kzISLnbH-sy54mLbT0pf-65SmQFEzsjTgNGW74UTDnUEsd6hNENlVrktOXQEhiScRIl1z-RU_rTxo-PHHj5ZkNVBA6nuaOF6tsCfwBlV8JH0rem0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResourcee2ca.axd?d=9fVK6SOzqud8-CG5DRcWdebsljMTON69KIP533D_m8NZQZ4jnIMGF8oFKTFeHj-NRPQhJ1xIl1zeHHfP2XswlwnsoHYqDaW4JDfL_Nox-N1i_05GLMfN9CXzP18OGzfw0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResource1276.axd?d=FJYGXcD0D1IU18YZcc5S5YECzhp_IEcVVtYsQFWFzKn01Ac13RMzGo6I-UObbYXBf7PmS6Mes704tZyWd4QCEfBorhhMNsyQ30w7rpI42Rd4lMUD_jI2hBirgIOzeUir0&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<script src="../ScriptResourced55d.axd?d=qTnPOILsJCPbmGgsgyJ0ez6crjdmiz2RRqUEhpSvEors3UD5MT4xFIzA3pTVyK-XZb1-5orKjPy7apu5yd3wTD4T3eFPTLQBsjD9-lzptEjz-cyxhU6xzFFSzm2TzGN00&amp;t=ffffffffcfeeeb28" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59BE73C3" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="L2/FMxEiZB6dKvCDllrMMdXKRDXAsLtkya3ubTTIg8ch6tK0ns2HnyzqQvwn4Jsm08WBOLGdEb+3ctCaqZbSMCCDlj9ld7XoK/72Tkbt6r2JvA+WraVQNE+4hkWSK7lBL+Rj5qgmELS2lFM5mCou1mzTTPWcvXzjyn6dE21oD33IcFYUX9RRKzevv4W0DB+P3gWHKxZweTVXvekbwJvVCtszN/WS1GoeFyULtLYIT0U=" />
+            
+
+            <div id="MainContent_ctl02">
+	
+                    
+<style type="text/css">
+    .Modal_trans
+    {
+        opacity: 0.8;
+        filter: alpha(opacity=60);
+        background: grey;
+    }
+    .container{
+        z-index:10000;
+    }
+</style>
+<div id="MainContent_MessageBox_PopPanel" style="z-index:10000;border-radius: 9px; overflow: hidden; display: none;"><font color="White">
+		
+    <table style="border-collapse: collapse; border: 0px;" width="100%">
+        <tr id="MainContent_MessageBox_boxheader" style="cursor: move;">
+			<td colspan="2" style="background-color: #666666; padding-left: 10px; padding-top: 3px; padding-bottom: 3px;">
+                <span id="MainContent_MessageBox_lblTitle"><font color="#D0DAE1">ToolTrak Message</font></span>
+            </td>
+		</tr>
+		
+        <tr>
+            <td id="MainContent_MessageBox_icon" align="center" style="width: 50px; padding-left: 10px; padding-top: 5px; padding-bottom: 5px;">
+                <img id="MainContent_MessageBox_image" src="../Images/info-3.png" />
+            </td>
+		
+            <td style="padding: 10px; width: 220px;">
+                <span id="MainContent_MessageBox_lblMsg"><font color="#333333"></font></span>
+            </td>
+        </tr>
+        <tr>
+            <td align="right"
+                colspan="2"
+                style="padding-right: 20px; padding-top: 7px; padding-bottom: 7px; background-color: #666666; border-top-style: solid; border-top-width: 2px; border-top-color: #999999;">
+                <a id="MainContent_MessageBox_LinkButton1" href="javascript:__doPostBack(&#39;ctl00$MainContent$MessageBox$LinkButton1&#39;,&#39;&#39;)"></a>
+                <input type="submit" name="ctl00$MainContent$MessageBox$ok" value="Ok" id="MainContent_MessageBox_ok" />
+                
+            </td>
+        </tr>
+    </table>
+
+	</font></div>
+
+
+                    <br />
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1" style="margin: 11px;">
+
+                            <div class="row">
+                                <div class="col-md-4" style="text-align: right">
+                                    <div id="MainContent_ctl04" style="display:none;">
+		
+                                            <div style="z-index: 100000; position: fixed; left: 0px; top: 0px;" class="">
+                                                <img src="../Images/preloader.gif" height="38" />
+                                            </div>
+                                        
+	</div>
+                                </div>
+                                <div class="col-md-4" style="text-align: right">
+                                    <label class="control-label visible-ie8 visible-ie9">Profile Code</label>
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="text-align: left">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4" style="text-align: left">
+                                <div class="input-icon radio-list">
+                                    <span class="radio" style="padding: 3px"><input id="MainContent_rdbBuy" type="radio" name="ctl00$MainContent$type" value="rdbBuy" checked="checked" /><label for="MainContent_rdbBuy">Procure PIN</label></span>
+                                    <span class="radio" style="padding: 3px"><input id="MainContent_rdbRetrieve" type="radio" name="ctl00$MainContent$type" value="rdbRetrieve" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$rdbRetrieve\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="MainContent_rdbRetrieve">Retrieve PIN</label></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="text-align: right">
+                                <label class="control-label visible-ie8 visible-ie9">Profile Code</label>
+                                <div style="margin-top: 5px;">
+                                    <input name="ctl00$MainContent$Code" type="text" id="MainContent_Code" class="form-control placeholder-no-fix" autocomplete="off" placeholder="Profile Code" required="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="text-align: left; padding-left: 5px;">
+                                <input type="submit" name="ctl00$MainContent$btnDetails" value="Get Details" id="MainContent_btnDetails" class="btn btn-circle blue bordered" style="font-weight: bold;" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-4" style="text-align: left">
+                                &nbsp; &nbsp;
+                            &nbsp; &nbsp;
+                            &nbsp; &nbsp;
+                            </div>
+                        </div>
+
+                    </div>
+                    <br />
+                    <div id="dvall" class="row">
+                        <div class="col-md-10 col-md-offset-1" style="margin: 11px; text-align: left">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="vertical-align: top;">
+                                        
+                                    </td>
+                                    <td style="vertical-align: top;">&nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <a href="../querypayment-2" target="_blank"
+                                class="btn btn-default red" style="font-weight: bold">Re-Query/Check </a>the status of your online payment if you have paid and could not retrieve PIN (Transaction ID/Ref is required)
+                        </div>
+                    </div>
+                
+</div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"Modal_trans","dynamicServicePath":"/eFacility/CandPay/InitPay","id":"MainContent_MessageBox_PopUp","okControlID":"MainContent_MessageBox_ok","popupControlID":"MainContent_MessageBox_PopPanel","popupDragHandleControlID":"MainContent_MessageBox_boxheader"}, null, null, $get("MainContent_MessageBox_LinkButton1"));
+});
+//]]>
+</script>
+</form>
+        <!-- END LOGIN FORM -->
+    </div>
+
+            <!-- END REGISTRATION FORM -->
+        </div></div>
+    </div>
+    <!-- END LOGIN -->
+    <!-- BEGIN COPYRIGHT -->
+    <div class="copyright" style="color:#235b2b;">
+        2017 &copy; Joint Admissions and Matriculation Board (JAMB)
+    </div>
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+    <script src="../assets/global/plugins/jquery.min-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery-migrate.min-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap/js/bootstrap.min-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery.blockui.min-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/uniform/jquery.uniform.min-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery.cokie.min-3.js" type="text/javascript"></script>
+                  
+    <script src="../assets/global/plugins/jquery-validation/js/jquery.validate.min-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/backstretch/jquery.backstretch.min-3.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../assets/global/plugins/select2/select2.min-3.js"></script>
+                  
+    <script src="../assets/global/scripts/metronic-3.js" type="text/javascript"></script>
+    <script src="../assets/admin/scripts/layout-3.js" type="text/javascript"></script>
+    <script src="../assets/admin/scripts/demo-3.js" type="text/javascript"></script>
+    <script src="../assets/admin/pages/scripts/login-soft-3.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min-3.js"></script>
+    <script src="../assets/admin/pages/scripts/components-pickers-3.js"></script>
+                  
+    <script src="../assets/global/plugins/bootbox/bootbox.min-3.js" type="text/javascript"></script>
+    <script src="../assets/pages/scripts/ui-bootbox.min-3.js" type="text/javascript"></script> 
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Login.init();
+            Demo.init();
+            ComponentsPickers.init();
+            // init background slide images
+            $.backstretch([
+             //"../assets/admin/pages/media/bg/sidmachofficenight.png",
+             "../assets/admin/pages/media/bg/3.jpg",
+             "../assets/admin/pages/media/bg/4-3.jpg"
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+         );
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

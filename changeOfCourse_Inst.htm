@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta name="Search.WLSearchBox" content="1.1, en-US" />
+    <title>Joint Admissions and Matriculation Board   
+    </title>
+    <link href="JambCss.css" rel="stylesheet" type="text/css" />
+    <link href="Images/main.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+    <script type='text/javascript' src='js/basic.js'></script>
+    <script type="text/javaScript" src="ddaccordion.js">
+
+        /***********************************************
+        * Accordion Content Script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+        * Visit http://www.dynamicDrive.com for hundreds of DHTML Scripts
+        * This notice must stay intact for legal use
+        ***********************************************/
+    </script>
+     
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // bind the click event 
+            $('#basic').click(function () {
+                alert('baz');
+            });
+            // trigger the click event 
+            $('#basic').click();
+        });
+    </script>
+    <!--<script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47314654-1', 'jamb.org.ng');
+    ga('send', 'pageview');
+
+</script>
+-->
+    <style type="text/css">
+        .mypets
+        {
+            /*header of 1st demo*/
+            cursor: hand;
+            cursor: pointer;
+            padding: 2px 5px;
+            border: 1px solid gray;
+            background: #E1E1E1;
+        }
+        
+        .openpet
+        {
+            /*class added to contents of 1st demo when they are open*/
+            background: orange;
+        }
+        
+        .technology
+        {
+            /*header of 2nd demo*/
+            cursor: hand;
+            cursor: pointer;
+            font: bold 14px Verdana;
+            margin: 10px 0;
+        }
+        
+        
+        .openlanguage
+        {
+            /*class added to contents of 2nd demo when they are open*/
+            color: green;
+        }
+        
+        .closedlanguage
+        {
+            /*class added to contents of 2nd demo when they are closed*/
+            color: red;
+        }
+ .home_link  {
+ float: left;
+ position: relative;
+ background: #007700;
+ color: #fff;
+ font-weight: bold;
+ padding: 5px 25px;
+ margin:3px 10px;
+ text-align: center;
+ -moz-transition:all 0.4s ease-in-out;
+ -o-transition:all 0.4s ease-in-out;
+ -webkit-transition:all 0.4s ease-in-out;
+ transition:all 0.4s ease-in-out;
+ -o-border-radius:4px;
+ -moz-border-radius:4px;
+ -webkit-border-radius:4px;
+ border-radius:4px;
+ cursor:pointer;
+        } 
+  .home_link:hover{
+      background:#67b367;
+  }
+  .home_link a{color:#fff; text-decoration:none;}
+
+    </style>
+    <script type="text/javaScript">
+
+        //Initialize first demo:
+        ddaccordion.init({
+            headerclass: "mypets", //Shared CSS class name of headers group
+            contentclass: "thepet", //Shared CSS class name of contents group
+            revealtype: "mouseover", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+            mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+            collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+            defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+            onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+            animatedefault: false, //Should contents open by default be animated into view?
+            scrolltoheader: false, //scroll to header each time after it's been expanded by the user?
+            persiststate: true, //persist state of opened contents within browser session?
+            toggleclass: ["", "openpet"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+            togglehtml: ["none", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+            animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+            oninit: function (expandedindices) { //custom code to run when headers have initalized
+                //do nothing
+            },
+            onopenclose: function (header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
+                //do nothing
+            }
+        })
+
+        //Initialize 2nd demo:
+        ddaccordion.init({
+            headerclass: "technology", //Shared CSS class name of headers group
+            contentclass: "thelanguage", //Shared CSS class name of contents group
+            revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+            mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+            collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+            defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+            onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+            animatedefault: false, //Should contents open by default be animated into view?
+            scrolltoheader: false, //scroll to header each time after it's been expanded by the user?
+            persiststate: false, //persist state of opened contents within browser session?
+            toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+            togglehtml: ["prefix", "<img src='http://i13.tinypic.com/80mxwlz.gif' style='width:13px; height:13px' /> ", "<img src='http://i18.tinypic.com/6tpc4td.gif' style='width:13px; height:13px' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+            animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+            oninit: function (expandedindices) { //custom code to run when headers have initalized
+                //do nothing
+            },
+            onopenclose: function (header, index, state, isuseractivated) { //custom code to run whenever a header is opened or closed
+                //do nothing
+            }
+        })
+
+    </script>
+    <script language="JavaScript">
+        function NotAvailableDE() {
+            alert("2017 Direct Entry e-Registration Will Soon Be Available. Thank you!");
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchDE() {
+            UmePage = window.open('DirectEntry', 'DirectEntry', 'left=150,top=20,height=683,width=1200,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+
+    </script>
+    <script language="JavaScript">
+        function LaunchCafeReg() {
+            UmePage = window.open('Unifiedtme/CyberAdmin/Default.aspx', 'DirectEntry', 'left=150,top=20,height=683,width=1200,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+    </script>
+    <script language="JavaScript">
+        function NotAvailableUTME() {
+            alert("2017 Unified Tertiary Matriculation Examination e-Registration Will Soon Be Available. Thank you!");
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchOsun() {
+            UTMEPage = window.open('Osun', 'State of Osun', 'left=150,top=20,height=683,width=1200,scrollbars=yes,status=yes,resizeable=yes');
+            UTMEPage.focus();
+
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchUTME() {
+            UTMEPage = window.open('Unifiedtme', 'UTME2013', 'left=150,top=20,height=683,width=1200,scrollbars=yes,status=yes,resizeable=yes');
+            UTMEPage.focus();
+
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchUTME2014() {
+            UTMEPage = window.open('Unifiedtme2014', 'UTME2014', 'left=150,top=20,height=683,width=1200,scrollbars=yes,status=yes,resizeable=yes');
+            UTMEPage.focus();
+
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchRegularization() {
+            UmePage = window.open('postregistrationefacility/Regularize.aspx', 'Regularization', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+    </script>
+    <!-- <script language="JavaScript">
+        function LaunchPostRegistrationeFacility(id) {
+            var query =   encodeURIComponent(id);
+            window.location = uri;
+            UmePage = window.open('/postregistrationefacility/ValidatePIN.aspx?id=' + encodeURIComponent(query) + '', 'LoginAdmissionLetterPrinting', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+    </script>-->
+    <script language="JavaScript">
+        function LaunchPostRegistrationeFacility(id) {
+            UmePage = window.open('/postregistrationefacility/ValidatePIN.aspx?id=' + id + '', 'LoginAdmissionLetterPrinting', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchCheckPosting(id) {
+            UmePage = window.open('/postregistrationefacility/CheckAdmissionRecommendationStatus.aspx?id=' + id + '', 'LoginAdmissionLetterPrinting', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+    </script>
+    <!--  <script language="JavaScript">
+        function LaunchForeignResult(id) {
+            UmePage = window.open('/postregistrationefacility/PrintForeignResult.aspx?id=' + id + '', 'PrintForeignResultPrinting', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+        }
+    </script>-->
+    <script language="JavaScript">
+        function LaunchPostRegistrationeFacilitySoon() {
+            alert("2015 Unified Tertiary Matriculation Examination Change of Institution/Course Will Soon Be Available. Thank you!");
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchChangeofCourseFromRegCentres() {
+            UmePage = window.open('unifiedtme/regCentreLogin.aspx', 'ChangeofCourse', 'left=150,top=20,height=600,width=900,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchChangeofCourseDEFromRegCentres() {
+            UmePage = window.open('DirectEntry/regCentreLogin.aspx', 'ChangeofCourse', 'left=150,top=20,height=600,width=900,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+        }
+    </script>
+    <script language="JavaScript">
+        function LaunchAdmissionStatus(id) {
+            UmePage = window.open('/postregistrationefacility/CheckAdmissionStatus.aspx?id=' + id + '', 'LoginAdmissionStatus', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+        function LaunchCheckResult(id) {
+            UmePage = window.open('/postregistrationefacility/VerifyResult.aspx?id=' + id + '', 'LoginCheckResult', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+        function LaunchAmendRegularized(id) {
+            UmePage = window.open('/postregistrationefacility/ChangeGenderLGA.aspx?id=' + id + '', 'ChangeGenderLGA', 'left=150,top=20,height=600,width=840,scrollbars=yes,status=yes,resizeable=yes');
+            UmePage.focus();
+
+        }
+    </script>
+    <style type="text/css">
+        .outLi
+        {
+            font-size: 12px;
+            color: #2D4A3E;
+            font-weight: bold;
+            list-style-type: none;
+            width: 340px;
+        }
+        .inLi
+        {
+            font-size: 13px;
+            color: #530000;
+            font-weight: normal;
+            list-style-type: square;
+        }
+        .style3
+        {
+            width: 80%;
+        }
+        .style4
+        {
+            width: 100%;
+        }
+        .style5
+        {
+            width: 98%;
+        }
+        .style6
+        {
+            width: 470px;
+            height: 40px;
+        }
+    </style>
+    <script language="JavaScript">
+<!--
+        function SoonBeAvailable() {
+            alert("2009 MPCE e-Registration will commence very soon, thank you!");
+        }
+
+        function MM_swapImgRestore() { //v3.0
+            var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+        }
+
+        function MM_preloadImages() { //v3.0
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+        }
+
+        function MM_findObj(n, d) { //v4.01
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_swapImage() { //v3.0
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+        }
+//-->
+    </script>
+    <!-- Page styles -->
+    <link type='text/css' href='css/demo.css' rel='stylesheet' media='screen' />
+    <!-- Contact Form CSS files -->
+    <link type='text/css' href='css/basic.css' rel='stylesheet' media='screen' />
+    <!-- IE6 "fix" for the close png image -->
+    <!--[if lt IE 7]>
+<link type='text/css' href='css/basic_ie.css' rel='stylesheet' media='screen' />
+<![endif]-->
+    <!-- JS files are loaded at the bottom of the page -->
+</head>
+<body>
+    <!--<body  onload="PageLoadClick()">
+-->
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" cellpadding="3" cellspacing="3" class="style3">
+            <tr>
+                <td style="width: 100%;" class="RoundedTable TextFormat">
+                    <table align="center" cellpadding="0" cellspacing="0" class="style4">
+                        <tr>
+                            <td>
+                                <table align="center" cellpadding="0" cellspacing="0" class="style4">
+                                    <tr>
+                                        <td style="text-align:center;" class="img-responsive">
+                                            <img src="images/banner.png" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top: 15px;">
+                                            <table align="center" cellpadding="0" cellspacing="0" class="style5">
+                                                <!--<tr>
+                                                    <td style="text-align: center; padding: 0px; margin: 0px;" valign="bottom">
+                                                        <img align="absbottom" alt="" class="style6" src="Images/boardnotice.png" />
+                                                    </td>
+                                                </tr>-->
+                                                <tr>
+                                                    <td style="border: 1px solid #003c1e4d;" valign="top">
+                                                        <!--<table align="center" cellpadding="3" class="style4" cellspacing="3" style="width: 95%">
+            <tr>
+                <td colspan="2" class="" valign="top" style="font-size: 11px; font-weight: bold;
+                    color: #00822B; text-align: center">
+                    Download the JAMB Mobile Service application from the store<br />
+                    <a title="Google Playstore" target="_blank" href="https://play.google.com/store/apps/details?id=com.sidmach.jambefacility">
+                        <img alt="Google Playstore" height="63" src="images/google%20play.png" /></a>
+                    <a title="Microsoft Windows Store" target="_blank" href="http://www.windowsphone.com/s?appid=4f5406cc-f0ad-41b4-af2b-ce842715f87d">
+                        <img alt="Microsoft Windows Store" height="63" src="images/wp8logo.png" /></a>
+                </td>
+            </tr>
+        </table>-->
+                                                        <br />
+                                                        <div class="row" style="width:90%; margin:auto">
+                                                            <a href="javascript:history.back()"><span class="home_link">Go back</span></a>
+                                                            <h3 class="text-center text-capitalize">Correction of Data:Change of Course/Institution</h3><br />
+                                                            <div class="img-responsive text-center">
+                                                                <img src="correction01.PNG" alt="Correction of data" />
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="row" style="width:80%; margin:auto">
+                                                            <h2>INSTRUCTION:CHANGE OF COURSE/INSTITUTION</h2>
+                                                            <p>
+                                                                1.	You shall be required to create a profile via the Sign Up (New User) Page if you are a new user.
+                                                                For existing users, simply type in your login details. To create your profile,
+                                                                you will provide your valid email address, surname, first name, Mobile No, State and LGA of Origin and password,
+                                                                then click on the Sign Up button. Each candidate is entitled to only one profile.
+                                                            </p>
+                                                            <p>
+                                                                2.	Subsequently, you shall use your email address and password to sign in.
+                                                            </p>
+                                                            <p>
+                                                                3.	Once logged in, you will be taken to the landing page where you will see all available services.
+                                                            </p>
+                                                            <p>
+                                                                4.	Select “Correction of Data”. This is available on the side bar or on the Home page
+                                                            </p>
+                                                            <p>
+                                                                5.	Once selected, the menu item “Course/Institution” will be revealed. Click this.
+                                                            </p>
+                                                            <p>
+                                                                6.	Once you select this service, a Transaction ID is generated for this service.
+                                                                This will be displayed on the confirmation page screen.
+                                                            </p>
+                                                            <p>
+                                                                7.	Review the details displayed on the Confirmation Page. Also, note the Transaction ID displayed in a <strong style="color:#c81111;">bold red font</strong>.
+                                                                The Transaction ID is useful for all future references concerning the
+                                                                Transaction. A copy of this transaction ID will be sent to your registered email address.
+                                                            </p>
+                                                            <p>
+                                                                8.	Click on the Continue button if you wish to pay with your card immediately.
+                                                                If you wish to use other payment channels like ATM, Cash at the Bank or Quickteller, please note the transaction ID as it will be required.
+                                                            </p>
+                                                            <p>
+                                                                9.	On the Interswitch Payment page, enter your card details and click on the Pay button.
+
+
+                                                            </p>
+                                                            <p>
+                                                                10.	The status of your payment will be displayed on the “My Payment Section”
+                                                                An SMS and email containing your unique Transaction Identification and payment status will be sent to you after payment.
+                                                                Click on the Continue button.
+
+
+                                                            </p>
+                                                            <p>
+                                                                11.	Once payment is completed, you will be asked to provide the following:<br />
+                                                                a.	Year of Exam and<br />
+                                                                b.	JAMB Registration Number
+
+                                                            </p>
+                                                            <p>
+                                                                12.	After entering the information correctly, new options for Preferred course/Institution and second choices will appear.
+                                                                Options available will be based on availability.
+
+                                                            </p>
+                                                            <p>
+                                                                13.	Click Submit to complete your application.
+
+                                                            </p>
+                                                            <p>
+                                                                14.	JAMB will now process your application. If Approved, your details will be changed as requested.
+
+                                                            </p>
+
+                                                        </div>
+
+                                                        <div class="row text-center" style="width:80%; margin:auto">
+                                                            <a href="efacility" target="_blank">
+                                                                <span class="btn btn-success">Click here to begin</span>
+                                                            </a>
+                                                        </div>
+
+                                                        <br /><br />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0"
+                                                width="800" height="79">
+                                                <param name="movie" value="images/jambCBTAdvert.swf">
+                                                <param name="quality" value="high">
+                                                <embed src="jmbflash.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                                                    type="application/x-shockwave-flash" width="800" height="79"></embed></object>-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer"><br />
+                                            <span style="font-weight: bold; font-size: 11.5px; color: #003300;">Copyright &copy
+                                                2016. Joint Admissions & Matriculation Board   </span>
+                                        </td>
+                                        <!-- <td class="footer">
+                                            <span style="font-weight: bold; font-size: 11.5px; color: #003300;">Copyright &copy
+                                                2014. Unified Tertiary Matriculation Examination: &nbsp;<span style="font-size: 12.5px;">Post
+                                                    Registration e-Facilities</span></span>
+                                        </td>-->
+                                    </tr>
+                                </table>
+                            </td>
+                            
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <script src="jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

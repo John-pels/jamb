@@ -1,0 +1,22 @@
+body
+	{
+		background: #090909; margin:auto; 
+	}
+	
+	#header
+	{
+		position: relative;
+		background: #ddd url(Images/background.gif) no-repeat center;
+		background-size: cover; height:550px; margin-top:-32px; padding:30px; text-align:center; width:100%; margin:auto; 
+	}
+	#copyright .container
+	{
+	}
+	
+	.container
+	{
+		text-decoration: none;
+		color: white; text-align:center; font-size:20px; font-family:tahoma;
+	}	
+	#nav{margin:auto; width:1100px;}
+	

@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><title>
+	UTME Mock Examination Results Notification
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="assets/global/plugins/select2/select2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/pages/css/login-soft.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="assets/global/css/components.css" rel="stylesheet" type="text/css" /><link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/layout.css" rel="stylesheet" type="text/css" /><link id="style_color" href="assets/admin/css/themes/darkblue.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/custom.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/clockface/css/clockface.css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="Account/favicon.ico" /></head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="Login">
+            <img src="assets/admin/img/logo_big.png" alt="logo" />
+        </a>
+    </div>
+    <div class="col-md-8  col-md-offset-2">
+        <div class="account">
+            <div id="dvform" class="row" style="margin-left: 5px; margin-right: 5px">
+                <!-- BEGIN LOGIN FORM -->
+                <form method="post" action="http://www.jamb.org.ng/ExamSlipPrinting2/CheckUTMEMockResults" id="ctl22">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ZGxOgAK3gygUHpIHCQYWwp7fS4mgTQbUT+eOo/ulxJ4ivqapfwngZi9qsFRkQcYDNAded+mAQCUQt4xvZRXCEpu5fOa/Gl7bPXi8QUM/0wogh3tmdfzt389PRsk2e6LJ+rp3vh6EUxZ0c4ObwT5y6Te+D08M1m/ChAORl+NKj3QFwGkOzrJKRHCB6l1RtZhu" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1A9E9624" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="bHBx1F8TJBNgO06MPZLikM3FbWEJ856kPM33yWXxXAnKf5N45lP3nvxOE3L+jr47JPkr7TYPQXRNUt2vvGK4R2+jc77hTsdvb132HmBIzSOQ4Ve4EkpgcY9c768SqPcR04dnJ4GwN4Q0jFGrDWAjGA==" />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Check My Mock Results</h3>
+                            <div class="form-group block">
+                                <span><b>Reg Number/e-Mail</b></span><br />
+                                <input name="txtRegNumber" type="text" id="txtRegNumber" class="form-control" placeHolder="Reg Number/e-Mail" />
+                                &nbsp;
+                            </div>
+                            <div class="form-group block">
+                                <a id="lnkSearch" class="btn btn-primary" href="javascript:__doPostBack(&#39;lnkSearch&#39;,&#39;&#39;)">
+                    Check Mock Results <i class="fa fa-search m-icon-white"></i></a>
+                                <a href="login-2" style="display: none" class=" btn btn-success pull-right"><i class="m-icon-swapleft"></i>Back To Login </a>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    
+                </form>
+                <!-- END REGISTRATION FORM -->
+            </div>
+        </div>
+        <div class="copyright" style="color: #235b2b;">
+            2018 &copy; Joint Admissions and Matriculation Board (JAMB)
+        </div>
+    </div>
+
+    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+
+    <script src="assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/global/plugins/select2/select2.min.js"></script>
+
+    <script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/demo.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/admin/pages/scripts/components-pickers.js"></script>
+
+
+    <script src="assets/global/plugins/bootbox/bootbox.min.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/ui-bootbox.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function PrintElem(elem) {
+            // Popup($(elem).html());
+            //var d = $('#' + elem).html(); 
+            Popup($('#' + elem).html());
+        }
+
+        function Popup(data) {
+            var mywindow = window.open('', 'new div', 'height=400,width=600');
+            mywindow.document.write('<html><head><title></title>');
+            mywindow.document.write("<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" media=\"all\"/>");
+            mywindow.document.write('</head><body >');
+            mywindow.document.write(data);
+            mywindow.document.write('</body></html>');
+
+            //mywindow.print();
+            //mywindow.close();
+
+            return true;
+        }
+
+        function printDiv(divID) {
+            //Get the HTML of div
+            var divElements = document.getElementById(divID).innerHTML;
+            //Get the HTML of whole page
+            var oldPage = document.body.innerHTML;
+
+            //Reset the page's HTML with div's HTML only
+            document.body.innerHTML =
+              "<html><head><title></title></head><body>" +
+              divElements + "</body>";
+
+            //Print Page
+            window.print();
+
+            //Restore orignal HTML
+            document.body.innerHTML = oldPage;
+            location.reload();
+
+        }
+    </script>
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Login.init();
+            Demo.init();
+            ComponentsPickers.init();
+            // init background slide images
+            $.backstretch([
+             //"../assets/admin/pages/media/bg/sidmachofficenight.png",
+             "assets/admin/pages/media/bg/3.jpg",
+             "assets/admin/pages/media/bg/4.jpg"
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+         );
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

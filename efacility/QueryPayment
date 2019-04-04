@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><title>
+	JAMB - Query Payment
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/font-awesome/css/font-awesome.min-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/simple-line-icons/simple-line-icons.min-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/bootstrap/css/bootstrap.min-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/plugins/uniform/css/uniform.default-2.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="assets/global/plugins/select2/select2-2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/pages/css/login-soft-2.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="assets/global/css/components-2.css" rel="stylesheet" type="text/css" /><link href="assets/global/css/plugins-2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/layout-2.css" rel="stylesheet" type="text/css" /><link id="style_color" href="assets/admin/css/themes/darkblue-2.css" rel="stylesheet" type="text/css" /><link href="assets/admin/css/custom-2.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/clockface/css/clockface-2.css" /><link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min-2.css" />
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="Account/favicon.ico" /></head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="Login-3">
+            <img src="assets/admin/img/logo_big-2.png" alt="logo" />
+        </a>
+    </div>
+    <div class="col-md-10  col-md-offset-1">
+        <div class="account">
+            <div id="dvform" class="row" style="margin-left: 5px; margin-right: 5px">
+                <!-- BEGIN LOGIN FORM -->
+                <form method="post" action="http://www.jamb.org.ng/efacility./QueryPayment" id="ctl22">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Rm9O6+qGfD69djELRiNh3frqFrJX6kOObtx4d+BGm5RxY62c621bGDTJ6KZ0QYKNidMeVYtB0W1/7F4U40TwiJFUiJ2bAl/M2d1XRtYWW8mpN1/5bjXTUB2D8G9Hy2jPfXR+wuDsMHj0lVTZALSsrKQvGtgQQKFngUIf0P2kC2dxKEw/M2/LWkmtRKH0TXRiNmcNDudxJOBHk3FYbZ4MmQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9197D80D" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ZbJuEPn1KkUwF6FUOlNkDOXHxJ2wNXvPEQcpd2ZwCbvTFgJCdZqVzsQ95MvPlnynEmy5CI33WsF6f3fdhar/xnxUgGLEKoUioFrcQkdh3AB/zZ4VFRNVA1u8GMMeObePJfFbCdzrOMnrWeGvalOmfw==" />
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h3>Query Payment Status/Usage</h3>
+                            <div class="form-group block">
+                                <span><b>Transaction Reference ID</b></span><br />
+                                <input name="txttransId" type="text" id="txttransId" class="form-control" placeHolder="Keyword" onKeyUp="return Lower(this)" />
+                                &nbsp;
+                            </div>
+                            <div class="form-group block">
+                                <a id="lnkSearch" class="btn btn-primary" href="javascript:__doPostBack(&#39;lnkSearch&#39;,&#39;&#39;)">
+                    Query Payments <i class="fa fa-paypal m-icon-white"></i></a>
+                                <a href="login-4" style="display: none" class=" btn btn-success pull-right"><i class="m-icon-swapleft"></i>Back To Login </a>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                                
+                                <br />
+                            <div style="overflow: auto; background: #fff">
+
+                                <div>
+
+</div>
+
+                            </div>
+                            <br />
+                        </div>
+
+                    </div>
+                </form>
+                <!-- END REGISTRATION FORM -->
+            </div>
+        </div>
+        <div class="copyright" style="color: #235b2b;">
+            2017 &copy; Joint Admissions and Matriculation Board (JAMB)
+        </div>
+    </div>
+
+    <script src="assets/global/plugins/jquery.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery-migrate.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap/js/bootstrap.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.blockui.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/uniform/jquery.uniform.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/jquery.cokie.min-2.js" type="text/javascript"></script>
+ 
+    <script src="assets/global/plugins/jquery-validation/js/jquery.validate.min-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/backstretch/jquery.backstretch.min-2.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/global/plugins/select2/select2.min-2.js"></script>
+ 
+    <script src="assets/global/scripts/metronic-2.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/layout-2.js" type="text/javascript"></script>
+    <script src="assets/admin/scripts/demo-2.js" type="text/javascript"></script>
+    <script src="assets/admin/pages/scripts/login-soft-2.js" type="text/javascript"></script>
+    <script src="assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min-2.js"></script>
+    <script src="assets/admin/pages/scripts/components-pickers-2.js"></script>
+
+  
+    <script src="assets/global/plugins/bootbox/bootbox.min-2.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/ui-bootbox.min-2.js" type="text/javascript"></script>
+ 
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Login.init();
+            Demo.init();
+            ComponentsPickers.init();
+            // init background slide images
+            $.backstretch([
+             //"../assets/admin/pages/media/bg/sidmachofficenight.png",
+             "assets/admin/pages/media/bg/3.jpg",
+             "assets/admin/pages/media/bg/4-2.jpg"
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+         );
+        });
+    </script>
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
